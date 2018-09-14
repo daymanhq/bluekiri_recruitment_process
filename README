@@ -1,0 +1,39 @@
+requeriments:
+	pip install -U Flask
+	pip install flask_restful
+	pip install requests
+	pip install pytemperature
+
+
+
+API (flask)
+
+	Esta Api dispone de una apikey para hacer peticiones a la api de openweathermap
+	y así obtener los datos metereológicos necesarios.
+
+	Para arrancar esta Api, ejecutar en una terminal el siguiente comando:
+		$ python3 api.py
+
+	Para probar el resultado de la misma, abrir un navegador y insertar:
+		http://localhost:5000/city_weather/Palma
+
+
+
+WEBAPP (flask)
+
+	Esta aplicación web consume la API descrita mas arriba. Esta dispuesta en el puerto 80.
+	En el código podemos observar como las rutas en flask se utilizan con decoradores.
+	
+	Para poner en marcha la aplicació web, ejecutamos en una terminal:
+		$ python3 web_app.py 
+
+	En un navegador podemos acceder a la siguiente ruta y ver su funcionamiento:
+		http://0.0.0.0/dayman_weather/inca
+
+
+
+SCRIPT (python3)
+
+
+
+NOTA: cada ejecutable tiene que ser arrancado en una terminal distinta
