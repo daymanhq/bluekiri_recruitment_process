@@ -26,6 +26,7 @@ class CityWeather(Resource):
 api.add_resource(CityWeather, '/city_weather/<name_city>')
 
 
+
 if __name__ == '__main__':
 	app.run(debug=True)
 		
