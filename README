@@ -25,7 +25,7 @@ WEBAPP (flask)
 	En el código podemos observar como las rutas en flask se utilizan con decoradores.
 	
 	Para poner en marcha la aplicació web, ejecutamos en una terminal:
-		$ python3 web_app.py 
+		$ sudo python3 web_app.py 
 
 	En un navegador podemos acceder a la siguiente ruta y ver su funcionamiento:
 		http://0.0.0.0/dayman_weather/inca
@@ -33,6 +33,7 @@ WEBAPP (flask)
 
 
 SCRIPT (python3)
+	
 
 
 
