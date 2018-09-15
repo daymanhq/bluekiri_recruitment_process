@@ -34,6 +34,13 @@ WEBAPP (flask)
 
 SCRIPT (python3)
 	
+	Este script hace una petición al web service anterior, y muestra por pantalla
+	una frase indicando la temperatura que hará el dia siguiente en una ciudad dada.
+
+	Para ejecutarlo, escribir en una terminal:
+		python3 script.py nombre_de_ciudad
+
+		Si la ciudad dispone de un nombre compuesto, separarla mediante guion bajo.
 
 
 
