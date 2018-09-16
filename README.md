@@ -1,17 +1,19 @@
-#DEPENDENCIAS INSTALADAS EN ENTORNO VIRTUAL:
-    #Ejecutar en una terminal en la ruta del proyecto:
-        ###**$ source env/bin/activate**
-#TESTS
-    ##Tanto en el directorio de API como WEBAPP hay un script que permite testear
-    ##algunas funciones de los respectivos proyectos. Esto es util para asegurar
-    ##que todo funcione una vez se ha realizado algun cambio.
-        ##Ejecutar mediane:
-            ###**$ python3 test_api.py**
-            ###**$ python3 test_web.py**
+DEPENDENCIAS INSTALADAS EN ENTORNO VIRTUAL:
+
+    Ejecutar en una terminal en la ruta del proyecto:
+        **$ source env/bin/activate**
+
+TESTS:
+
+    Tanto en el directorio de API como WEBAPP hay un script que permite testear
+    algunas funciones de los respectivos proyectos. Esto es util para asegurar
+    que todo funcione una vez se ha realizado algun cambio.
+        Ejecutar mediane:
+            **$ python3 test_api.py**
+            **$ python3 test_web.py**
 
 
-
-##API (flask)
+API (flask)
 
     Esta Api dispone de una apikey para hacer peticiones a la api de 
     openweathermap  y así obtener los datos metereológicos necesarios. En
@@ -26,8 +28,7 @@
         **http://localhost:5000/city_weather/Palma**
 
 
-
-##WEBAPP (flask)
+WEBAPP (flask)
 
     Esta aplicación web consume la API descrita mas arriba. Esta dispuesta en
     el puerto 80. En el código podemos observar como las rutas en flask se 
@@ -41,8 +42,7 @@
         **http://0.0.0.0/dayman_weather/inca**
 
 
-
-##SCRIPT (python3)
+SCRIPT (python3)
     
     Este script hace una petición al web service anterior, y muestra por
     pantalla    una frase indicando la temperatura que hará el dia siguiente en
@@ -53,7 +53,6 @@
 
         Si la ciudad dispone de un nombre compuesto, separarla mediante guion
         bajo.
-
 
 
 NOTA: cada ejecutable tiene que ser arrancado en una terminal distinta
