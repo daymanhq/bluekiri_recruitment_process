@@ -1,9 +1,11 @@
 DEPENDENCIAS INSTALADAS EN ENTORNO VIRTUAL:
+
     Ejecutar en una terminal en el directorio del proyecto el siguiente
     comando, de esta forma dispondrá de todas las dependencias necesarias:
         $ source env/bin/activate
 
 TESTS:
+
     Tanto en el directorio de API como WEBAPP hay un script que permite testear
     algunas funciones de los respectivos proyectos. Esto es util para asegurar
     que todo funciona si se ha realizado algun cambio.
