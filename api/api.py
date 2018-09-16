@@ -5,12 +5,15 @@ import pytemperature
 
 app = Flask(__name__)
 api = Api(app)
+
 apikey = '7f19c483f79021245b5828b1764205ee'
 
 
 class CityWeather(Resource):
+
 	def get(self, name_city):
-		weather_api = 'https://api.openweathermap.org/data/2.5/weather?q=' + name_city + '&appid=' + apikey
+		weather_api = 'https://api.openweathermap.org/data/2.5/weather?q={}&'\
+		'appid={}'.format(name_city, apikey)
 		result = requests.get(weather_api)
 		
 		data_weather =  result.json()
