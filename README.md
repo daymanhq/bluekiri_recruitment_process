@@ -1,4 +1,5 @@
 ##DEPENDENCIAS INSTALADAS EN ENTORNO VIRTUAL:
+
     Ejecutar en una terminal en la ruta del proyecto:
         **$ source env/bin/activate**
 
