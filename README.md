@@ -1,6 +1,7 @@
 DEPENDENCIAS INSTALADAS EN ENTORNO VIRTUAL:
 
-    Ejecutar en una terminal en la ruta del proyecto:
+    Ejecutar en una terminal en el directorio del proyecto el siguiente
+    comando, de esta forma dispondrá de todas las dependencias necesarias:
         $ source env/bin/activate
 
 TESTS:
