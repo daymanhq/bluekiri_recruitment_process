@@ -1,18 +1,13 @@
-##DEPENDENCIAS INSTALADAS EN ENTORNO VIRTUAL:
-
-    Ejecutar en una terminal en la ruta del proyecto:
-        **$ source env/bin/activate**
-
-
-
-##TESTS
-    
-    Tanto en el directorio de API como WEBAPP hay un script que permite testear
-    algunas funciones de los respectivos proyectos. Esto es util para asegurar
-    que todo funcione una vez se ha realizado algun cambio.
-        Ejecutar mediane:
-        **$ python3 test_api.py**
-        **$ python3 test_web.py**
+#DEPENDENCIAS INSTALADAS EN ENTORNO VIRTUAL:
+    #Ejecutar en una terminal en la ruta del proyecto:
+        ###**$ source env/bin/activate**
+#TESTS
+    ##Tanto en el directorio de API como WEBAPP hay un script que permite testear
+    ##algunas funciones de los respectivos proyectos. Esto es util para asegurar
+    ##que todo funcione una vez se ha realizado algun cambio.
+        ##Ejecutar mediane:
+            ###**$ python3 test_api.py**
+            ###**$ python3 test_web.py**
 
 
 
