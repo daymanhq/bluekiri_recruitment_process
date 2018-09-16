@@ -1,7 +1,7 @@
 DEPENDENCIAS INSTALADAS EN ENTORNO VIRTUAL:
 
     Ejecutar en una terminal en la ruta del proyecto:
-        **$ source env/bin/activate**
+        $ source env/bin/activate
 
 TESTS:
 
@@ -9,8 +9,8 @@ TESTS:
     algunas funciones de los respectivos proyectos. Esto es util para asegurar
     que todo funcione una vez se ha realizado algun cambio.
         Ejecutar mediane:
-            **$ python3 test_api.py**
-            **$ python3 test_web.py**
+            $ python3 test_api.py
+            $ python3 test_web.py
 
 
 API (flask)
@@ -22,10 +22,10 @@ API (flask)
 
     Para arrancar la Api, ejecutar en una terminal con virtual env activo
     el siguiente comando:
-        **$ python3 api.py**
+        $ python3 api.py
 
     Para probar el resultado de la misma, abrir un navegador y insertar:
-        **http://localhost:5000/city_weather/Palma**
+        http://localhost:5000/city_weather/Palma
 
 
 WEBAPP (flask)
@@ -36,10 +36,10 @@ WEBAPP (flask)
     
     Para poner en marcha la aplicació web, ejecutamos en una terminal con el 
     virtual env activo, el siguiente comando:
-        **$ sudo python3 web_app.py** 
+        $ sudo python3 web_app.py 
 
     En un navegador podemos acceder a la siguiente ruta y ver su funcionamiento:
-        **http://0.0.0.0/dayman_weather/inca**
+        http://0.0.0.0/dayman_weather/inca
 
 
 SCRIPT (python3)
@@ -49,7 +49,7 @@ SCRIPT (python3)
     una ciudad dada.
 
     Para ejecutarlo, escribir en una terminal:
-        **python3 script.py nombre_de_ciudad**
+        $ python3 script.py nombre_de_ciudad
 
         Si la ciudad dispone de un nombre compuesto, separarla mediante guion
         bajo.
